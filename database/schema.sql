@@ -125,3 +125,21 @@ CREATE TABLE `stock` (
   `prod_id` int(11) DEFAULT NULL,
   `exp_id` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+ 
+--
+-- Table structure for table `supplier`
+--
+ 
+CREATE TABLE `supplier` (
+  `supp_id` int(11) NOT NULL,
+  `supp_name` varchar(100) NOT NULL,
+  `supp_phoneno` varchar(20) DEFAULT NULL,
+  `supp_email` varchar(100) DEFAULT NULL,
+  `supp_unitnum` varchar(20) DEFAULT NULL,
+  `supp_street` varchar(100) DEFAULT NULL,
+  `supp_neighborhood` varchar(50) DEFAULT NULL,
+  `supp_town` varchar(50) DEFAULT NULL,
+  `supp_state` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
