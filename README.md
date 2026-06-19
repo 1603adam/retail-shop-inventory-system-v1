@@ -34,7 +34,7 @@ This project is a MySQL-based Retail Shop Inventory Management System developed 
 
 ## Entity Relationship Diagram
 
-![ERD](database/erd.png)
+![ERD](database/ERD.png)
 
 ## Customer Table
 
