@@ -61,6 +61,7 @@ database/
 
 * schema.sql
 * sample_data.sql
+* ERD.png
 
 queries/
 
@@ -72,12 +73,18 @@ queries/
 
 screenshots/
 
-* database screenshots
-* query results
+* customer-table.png
+* delivery-table.png
+* employee-table.png
+* expense-table.png
+* payment-table.png
+* product-table.png
+* sales-table.png
+* supplpier-table.png
 
 documentation/
 
-* project report
+* project-report
 
 ## How to Run
 
